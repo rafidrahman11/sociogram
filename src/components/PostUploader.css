@@ -1,0 +1,33 @@
+.postUploader {
+  padding: 20px;
+}
+
+.postUploader__paper {
+  padding: 20px;
+}
+
+.postUploader__top {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.postUpload__image {
+  margin-top: 10px;
+}
+
+.postUploader__caption {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.postUploader__bottom {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.postUploader__progress {
+  width: 100%;
+}

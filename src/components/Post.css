@@ -1,0 +1,54 @@
+.post {
+  padding: 20px;
+}
+
+.MuiGrid-container {
+  justify-content: center;
+}
+
+.post__top {
+  display: flex;
+  padding: 15px;
+}
+
+.post__username {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__caption {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.post__comments {
+  padding: 20px;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.post__comment {
+  margin-top: 5px;
+  display: flex;
+}
+
+.post__comment__text {
+  margin-left: 10px;
+}
+
+.post__comments__form {
+  padding: 15px;
+  border-top: 1px solid rgb(179, 179, 179);
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.post__add__comment {
+  width: 75%;
+  margin-right: 12px;
+}

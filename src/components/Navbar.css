@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar__logo {
+  object-fit: contain;
+  height: 30px;
+}
+
+.navbar__registration {
+  display: flex;
+}
+
+.navbar__signup {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navbar__signup:hover {
+  color: rgb(99, 151, 233);
+}
+
+.MuiButtonBase-root {
+  margin-top: 20px;
+}
+
+.navbar__login {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navbar__login:hover {
+  color: rgb(99, 151, 233);
+}
+
+.navbar__logout {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navbar__logout:hover {
+  color: rgb(99, 151, 233);
+}
